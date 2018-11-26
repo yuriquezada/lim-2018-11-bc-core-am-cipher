@@ -1,0 +1,47 @@
+body{
+    background: #ffff;
+    font-family: 'Raleway', sans-serif;
+}
+
+.conteiner{
+    text-align: center;
+    background-color: #ECE9D0;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0px auto;
+    box-sizing: border-box;
+    font-size: .9em;
+}
+
+header {  background: #fff;
+          height: 100px;
+          padding: 20px;
+
+}
+
+h1{ text-align: center;
+    color: black;
+}
+
+h2{ background: #818181;
+    padding: 3px 0px;
+    margin: 3px auto;
+}
+
+fieldset{
+  border-style: none;
+}
+
+input{width: 5%}
+
+button{
+  color: white;
+  background-color: #4a494e;
+  padding: 10px;
+  border-radius: 15px;
+  border-style: none;
+}
+textarea, input{
+  border-radius: 15px;
+  padding: 10px
+}

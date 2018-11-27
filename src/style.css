@@ -14,16 +14,18 @@ body{
 }
 
 header {  background: #fff;
-          height: 100px;
+          height: 250px;
           padding: 20px;
-
+          background-color: pink
 }
 
-h1{ text-align: center;
+h1{
     color: black;
+    font-family: 'Leckerli One', cursive;
+    font-size: 500%
 }
 
-h2{ background: #818181;
+h2{
     padding: 3px 0px;
     margin: 3px auto;
 }
@@ -44,4 +46,7 @@ button{
 textarea, input{
   border-radius: 15px;
   padding: 10px
+}
+textarea{
+  width: 60%;
 }

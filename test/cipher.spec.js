@@ -1,4 +1,4 @@
-describe('cipher', () => {
+﻿describe('cipher', () => {
 
   it('debería ser un objeto', () => {
     assert.equal(typeof cipher, 'object');
@@ -36,11 +36,11 @@ describe('cipher', () => {
     });
 
     it('debería retornar un objeto con dos funciones (encode y decode) con offset fijado', () =>{
-      assert.equal(cipher.createCipherWithOffset(3).encode("hola probando"),"krod suredqgr");
+      assert.equal(cipher.createCipherWithOffset(3).encode("testeando con mocha"),"whvwhdqgr frq prfkd");
     });
 
     it('debería retornar un objeto con dos funciones (encode y decode) con offset fijado', () =>{
-      assert.equal(cipher.createCipherWithOffset(3).decode("krod suredqgr"),"hola probando");
+      assert.equal(cipher.createCipherWithOffset(3).decode("whvwhdqgr frq prfkd"),"testeando con mocha");
     });
   });
 

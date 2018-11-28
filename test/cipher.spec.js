@@ -25,9 +25,7 @@
     it('debería retornar "ABCDEFGHIJKLMNOPQRSTUVWXYZ" para "HIJKLMNOPQRSTUVWXYZABCDEFG" con offest 33', () => {
       assert.equal(cipher.decode(33,"HIJKLMNOPQRSTUVWXYZABCDEFG"),"ABCDEFGHIJKLMNOPQRSTUVWXYZ");
     });
-
   });
-
 
   describe('cipher.createCipherWithOffset', () => {
 
@@ -43,5 +41,4 @@
       assert.equal(cipher.createCipherWithOffset(3).decode("whvwhdqgr frq prfkd"),"testeando con mocha");
     });
   });
-
 });

@@ -18,8 +18,10 @@ header {  background: #fff;
 
 }
 
-h1{
+h1{ font-family: 'Pacifico';
     color: black;
+    font-size: 250%;
+    margin: 10px
 }
 
 h2{ background: #818181;
@@ -48,6 +50,6 @@ textarea, input{
   padding: 8px
 }
 textarea {
-  width: 50%;
+  width: 65%;
   max-width: 400px;
 }

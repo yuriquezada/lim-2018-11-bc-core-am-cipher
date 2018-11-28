@@ -1,9 +1,11 @@
 window.cipher = {
   encode: (offSet,string)=>{
+    let newAscii;
+    let asciiCode;
     let textOutput = '';
 
     for (let i=0; i < string.length; i++){
-      const asciiCode=string.charCodeAt(i);
+      asciiCode=string.charCodeAt(i);
 
       if (asciiCode >=65 && asciiCode <=90){                  //para las mayusculas
         newAscii= ((asciiCode - 65 + offSet)%26+65);
@@ -28,11 +30,11 @@ window.cipher = {
     const asciiCode=string.charCodeAt(i);
 
     if (asciiCode >=65 && asciiCode <=90){
-        newAscii = (asciiCode + 90 - offSet) % 26 + 65;
+        newAscii = (asciiCode - 90 - offSet) % 26 + 90;
         textOutput+=String.fromCharCode(newAscii);
       }
       else if (asciiCode >=97 && asciiCode <=122) {
-        newAscii = (asciiCode - 97 - offSet + 52) % 26 + 97;
+        newAscii = (asciiCode - 122 - offSet) % 26 + 122;
         textOutput+=String.fromCharCode(newAscii);
       }
       else{

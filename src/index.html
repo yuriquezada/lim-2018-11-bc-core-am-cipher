@@ -4,19 +4,15 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Grand+Hotel|Leckerli+One|Sacramento" rel="stylesheet">
-
 
   </head>
   <body>
 
-    <section class="conteiner">
-
       <header>
         <h1>Cifra2</h1>
-        <h2>¿Quieres enviar mensajes secretos a tu pareja?</h2>
+        <h2>Envía mensajes a tu pareja</h2>
       </header>
 
       <section>
@@ -25,19 +21,18 @@
           <input type="number" min="0" id ="offSet">
         </fieldset>
 
-        <textarea id ="text1" placeholder="Escribe lo que quieras cifrar o decifrar"
-          rows="10" ></textarea>
+        <textarea  id ="text1" placeholder="Escribe tu mensaje ;)"
+          rows="7" ></textarea>
 
         <fieldset>
             <button id="encode">Cifrar</button>
             <button id="decode">Descifrar</button>
         </fieldset>
 
-        <textarea readonly id ="text2"  rows="10"></textarea>
+        <textarea readonly id ="text2" rows="7"></textarea>
 
       </section>
 
-    </section>
   <script src="cipher.js"></script>
   <script src="index.js"></script>
   </body>

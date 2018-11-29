@@ -9,32 +9,27 @@
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
   </head>
   <body>
+    <header>
+      <h1>Cifra2</h1>
+    </header>
 
-      <header>
-        <h1>Cifra2</h1>
-        <h2>Envía mensajes a tu pareja</h2>
-      </header>
-
-      <section>
-        <h2>hola</h2>
-        <fieldset>
-          <label for="offSet">Ingresa el offSet</label>
-          <input type="number" min="0" id ="offSet">
-        </fieldset>
-
-        <textarea  id ="text1" placeholder="Escribe tu mensaje ;) <3"
-          rows="6" ></textarea>
-
-        <fieldset>
-            <button id="encode">Cifrar</button>
-            <button id="decode">Descifrar</button>
-        </fieldset>
-
-        <textarea readonly id ="text2" rows="6"></textarea>
-
-      </section>
-
-  <script src="cipher.js"></script>
-  <script src="index.js"></script>
+    <section>
+      <h2>hola</h2>
+      <fieldset>
+        <label for="offSet">Ingresa el offSet</label>
+        <input type="number" min="0" id ="offSet">
+      </fieldset>
+      <textarea  id ="text1" placeholder="Escribe tu mensaje ;) <3"
+          rows="6" >
+      </textarea>
+      <fieldset>
+        <button id="encode">Cifrar</button>
+        <button id="decode">Descifrar</button>
+      </fieldset>
+      <textarea readonly id ="text2" rows="6">
+      </textarea>
+    </section>
+    <script src="cipher.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>

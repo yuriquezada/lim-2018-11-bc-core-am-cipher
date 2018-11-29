@@ -5,35 +5,38 @@ body{
 
 body {
     text-align: center;
-    background-color: #ECE9D0;
+    background-image: url(background.png);
+    background-position: center;
+    background-size: cover;
     width: 100%;
+    height: 200%;
     margin: 0px auto;
     box-sizing: border-box;
     font-size: 100%;
 }
 
-header {  background: #fff;
-          height: 100%;
-          padding: 20px;
-
+header {
+    height: 100%;
 }
 
 h1{ font-family: 'Pacifico';
     color: black;
-    font-size: 250%;
+    font-size: 400%;
     margin: 10px
 }
 
-h2{ background: #818181;
+h2{
     padding: 3px 0px;
     margin: 3px auto;
 }
 
-fieldset{
-  border-style: none;
+fieldset {
+    border-style: none;
 }
 
-input{width: 30px; margin: 5px}
+input {
+    width: 30px; margin: 5px
+}
 
 button{
   color: white;
@@ -44,12 +47,11 @@ button{
   margin: 4px
 }
 
-
-textarea, input{
-  border-radius: 15px;
-  padding: 8px
+textarea, input {
+    border-radius: 15px;
+    padding: 8px
 }
 textarea {
-  width: 65%;
-  max-width: 400px;
+    width: 75%;
+    max-width: 400px;
 }

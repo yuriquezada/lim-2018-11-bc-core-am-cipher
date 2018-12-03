@@ -1,7 +1,7 @@
 window.cipher = {
     encode: (offSet,string) => {
-        let newAscii;
         let asciiCode;
+        let newAscii;
         let textOutput = '';
         for (let i=0; i<string.length; i++) {
             asciiCode=string.charCodeAt(i);
@@ -21,7 +21,7 @@ window.cipher = {
     },
     decode: (offSet,string) => {
         let asciiCode;
-        let newAscii = 0;
+        let newAscii;
         let textOutput = '';
         for (let i=0; i < string.length; i++) {
             asciiCode=string.charCodeAt(i);

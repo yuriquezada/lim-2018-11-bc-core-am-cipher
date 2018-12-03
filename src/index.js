@@ -5,7 +5,7 @@ const inputElementText2 = document.getElementById('text2');
 const buttonEncode = document.getElementById('encode');
 const buttonDecode = document.getElementById('decode');
 
-//Agregando una funcion al evento click de los button
+//Agregando una funcion al evento click en los bontones encode y decode
 
 buttonEncode.addEventListener('click', () =>{
     const offSet= parseInt(inputElementOffSet.value)
